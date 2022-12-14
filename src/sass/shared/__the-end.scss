@@ -1,0 +1,17 @@
+.the-end{
+  background-color: #111111;
+  .the-end-area{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    p{
+      font-size: 14px;
+      line-height: 30px;
+      color: #777777;
+      font-weight: 400;
+      font-family: "Arial";
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+}
+.container{
+  width: 100%;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex{
+  display: flex;
+}
+.nav{
+
+}
+.nav-list{
+  padding : 0;
+  list-style: none;
+}
+.nav-link{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.pss-rlt{
+  position: relative;
+}
+.flex-1{
+  flex: 1 1 0%  ;
+}
+.pss-asl{
+  position: absolute;
+}
+.bg-000{
+  background: #000;
+}
+@media (min-width: 1920px){
+  .container{
+    max-width: 1920px;
+  }
+}
+@media (max-width: 1920px) and (min-width: 1024px){
+  .container{
+    max-width: 1920px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px){
+  .container{
+    max-width: 1024px;
+  }
+}
+@media (max-width: 768px) and (min-width: 340px){
+  .container{
+    max-width: 768px;
+  }
+}
+@import "shared/_header";
+@import "shared/_banner";
+@import "shared/_overview";
+@import "shared/_list-product";
+@import "shared/_evaluate";
+@import "shared/_list-relate";
+@import "shared/_footer";
+@import "shared/_the-end";
