@@ -41,6 +41,12 @@
           position: relative;
           text-align: center;
           padding: 20px 0;
+          a{
+            img{
+              width: 100%;
+              height: auto;
+            }
+          }
           .interactive{
             display: none;
             position: absolute;
